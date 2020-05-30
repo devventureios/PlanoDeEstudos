@@ -3,7 +3,7 @@
 //  PlanoDeEstudos
 //
 //  Created by Eric Brito on 23/10/17.
-//  Copyright © 2017 Eric Brito. All rights reserved.
+//  Copyright © 2020 Eric Brito. All rights reserved.
 //
 
 import Foundation

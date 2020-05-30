@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A12AC60A1F9D1487006EEC7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12AC6091F9D1487006EEC7B /* AppDelegate.swift */; };
-		A12AC60C1F9D1487006EEC7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12AC60B1F9D1487006EEC7B /* ViewController.swift */; };
 		A12AC60F1F9D1487006EEC7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12AC60D1F9D1487006EEC7B /* Main.storyboard */; };
 		A12AC6111F9D1487006EEC7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12AC6101F9D1487006EEC7B /* Assets.xcassets */; };
 		A12AC6141F9D1487006EEC7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12AC6121F9D1487006EEC7B /* LaunchScreen.storyboard */; };
@@ -21,7 +20,6 @@
 /* Begin PBXFileReference section */
 		A12AC6061F9D1487006EEC7B /* PlanoDeEstudos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanoDeEstudos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12AC6091F9D1487006EEC7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A12AC60B1F9D1487006EEC7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A12AC60E1F9D1487006EEC7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A12AC6101F9D1487006EEC7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A12AC6131F9D1487006EEC7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,12 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				A12AC6091F9D1487006EEC7B /* AppDelegate.swift */,
-				A12AC60B1F9D1487006EEC7B /* ViewController.swift */,
-				A12AC60D1F9D1487006EEC7B /* Main.storyboard */,
 				A12AC61B1F9D1741006EEC7B /* StudyPlanViewController.swift */,
 				A12AC61D1F9D18D5006EEC7B /* StudyPlansTableViewController.swift */,
 				A13D20DB1F9D877000EB19F7 /* StudyPlan.swift */,
 				A13D20DD1F9D880F00EB19F7 /* StudyManager.swift */,
+				A12AC60D1F9D1487006EEC7B /* Main.storyboard */,
 				A12AC6101F9D1487006EEC7B /* Assets.xcassets */,
 				A12AC6121F9D1487006EEC7B /* LaunchScreen.storyboard */,
 				A12AC6151F9D1487006EEC7B /* Info.plist */,
@@ -148,7 +145,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A12AC60C1F9D1487006EEC7B /* ViewController.swift in Sources */,
 				A13D20DC1F9D877000EB19F7 /* StudyPlan.swift in Sources */,
 				A12AC61C1F9D1741006EEC7B /* StudyPlanViewController.swift in Sources */,
 				A12AC61E1F9D18D5006EEC7B /* StudyPlansTableViewController.swift in Sources */,
