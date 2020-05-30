@@ -16,7 +16,8 @@ class StudyManager {
     var studyPlans: [StudyPlan] = []
     
     private init() {
-        if let data = ud.data(forKey: "studyPlans"), let plans = try? JSONDecoder().decode([StudyPlan].self, from: data) {
+        if let data = ud.data(forKey: "studyPlans"),
+           let plans = try? JSONDecoder().decode([StudyPlan].self, from: data) {
             self.studyPlans = plans
         }
     }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2257BBB72482CB69003CC992 /* airplane.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2257BBB52482CB69003CC992 /* airplane.caf */; };
+		2257BBB82482CB69003CC992 /* sonic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2257BBB62482CB69003CC992 /* sonic.mp3 */; };
 		A12AC60A1F9D1487006EEC7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12AC6091F9D1487006EEC7B /* AppDelegate.swift */; };
 		A12AC60F1F9D1487006EEC7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12AC60D1F9D1487006EEC7B /* Main.storyboard */; };
 		A12AC6111F9D1487006EEC7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12AC6101F9D1487006EEC7B /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2257BBB52482CB69003CC992 /* airplane.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = airplane.caf; sourceTree = "<group>"; };
+		2257BBB62482CB69003CC992 /* sonic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sonic.mp3; sourceTree = "<group>"; };
 		A12AC6061F9D1487006EEC7B /* PlanoDeEstudos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanoDeEstudos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12AC6091F9D1487006EEC7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A12AC60E1F9D1487006EEC7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 			children = (
 				A12AC6091F9D1487006EEC7B /* AppDelegate.swift */,
 				A12AC61B1F9D1741006EEC7B /* StudyPlanViewController.swift */,
+				2257BBB52482CB69003CC992 /* airplane.caf */,
+				2257BBB62482CB69003CC992 /* sonic.mp3 */,
 				A12AC61D1F9D18D5006EEC7B /* StudyPlansTableViewController.swift */,
 				A13D20DB1F9D877000EB19F7 /* StudyPlan.swift */,
 				A13D20DD1F9D880F00EB19F7 /* StudyManager.swift */,
@@ -132,6 +138,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2257BBB72482CB69003CC992 /* airplane.caf in Resources */,
+				2257BBB82482CB69003CC992 /* sonic.mp3 in Resources */,
 				A12AC6141F9D1487006EEC7B /* LaunchScreen.storyboard in Resources */,
 				A12AC6111F9D1487006EEC7B /* Assets.xcassets in Resources */,
 				A12AC60F1F9D1487006EEC7B /* Main.storyboard in Resources */,
